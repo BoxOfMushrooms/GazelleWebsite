@@ -1,0 +1,22 @@
+body,html {
+    height: 100%;
+    margin: 0;
+}
+
+.bgimg {
+    background-image: url('images/background.png');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Sue Ellen Francisco", cursive;
+    font-size: 25px;
+}
+
+.middle {
+    text-align: center;
+}
