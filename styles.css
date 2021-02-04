@@ -3,6 +3,11 @@ body,html {
     margin: 0;
 }
 
+@keyframes fade-in {
+    from { opacity: 0; } 
+    to { opacity: 1; }
+}
+
 .bgimg {
     background-image: url('images/background.png');
     height: 100%;
@@ -19,4 +24,12 @@ body,html {
 
 .middle {
     text-align: center;
+}
+
+#name {
+    animation: fade-in 1s linear 0.3s 1 both;
+}
+
+#date {
+    animation: fade-in 1s linear 2s 1 both;
 }
