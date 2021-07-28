@@ -42,5 +42,5 @@ body,html {
 }
 
 #date, .social-links {
-    animation: fade-in 1s linear 2s 1 both;
+    animation: fade-in 1s linear 1s 1 both;
 }
