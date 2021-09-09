@@ -37,10 +37,6 @@ body,html {
     fill: #dddddd;
 }
 
-#name {
-    animation: fade-in 1s linear 0.3s 1 both;
-}
-
-#date, .social-links {
-    animation: fade-in 1s linear 1s 1 both;
+hr, #date, .social-links, .social-links-title {
+    animation: fade-in 1s linear 0.5s 1 both;
 }
